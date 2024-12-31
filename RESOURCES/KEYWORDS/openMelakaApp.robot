@@ -5,5 +5,5 @@ Resource     ../../RESOURCES/VARIABLES/testingVariables.robot
 
 *** Keywords *** 
 Open MelakaAPP Register Page
-    Open browser    ${baseUrl}/register    ${browserType}
+    SeleniumLibrary.Open browser    ${baseUrl}/register    ${browserType}
     Wait until element is visible    ${regInputName}    30    
