@@ -14,18 +14,28 @@ helperRadioRetail                       = "//p[@data-testid='register__text__tok
 helperRadioBrand                        = "//p[@data-testid='register__text__brand-short-text']"
 helperRadioOnline                       = "//p[@data-testid='register__text__penjual-online-short-text']"
 helperInputEmail                        = "//p[@data-testid='register__text-field__email__error']"
+helperInputPass                         = "//p[@data-testid='register__text-field__password__error']"
+helperInputConfirmPass                  = "//p[@data-testid='register__text-field__confirm-password__error']"
 
-radioTypeDistributor                    = "//input[@id='distributor-:R696l6:']"
-radioTypeRetail                         = "//input[@id='retail_store-:Ra96l6:']"
-radioTypeBrand                          = "//input[@id='brand-:Re96l6:']"
-radioTypeOnline                         = "//input[@id='online_seller-:Ri96l6:']"
+radioTypeDistributor                    = "//input[@value='distributor']"
+radioTypeRetail                         = "//input[@value='retail_store']"
+radioTypeBrand                          = "//input[@value='brand']"
+radioTypeOnline                         = "//input[@value='online_seller']"
 
 labelRadioDistributor                   = "//span[normalize-space()='Distributor']"
 labelRadioRetail                        = "//span[normalize-space()='Toko Retail']"
 labelRadioBrand                         = "//span[normalize-space()='Brand']"
 labelRadioOnline                        = "//span[normalize-space()='Penjual Online']"
 
+showPassBtn                             = "//button[@data-testid='register__icon__eye-password']"
+showConfirmPassBtn                      = "//button[@data-testid='register__icon__eye-confirm-password']"
+
 buttonSubmit                            = "//button[@type='submit']"
 buttonLogin                             = "//a[normalize-space()='Masuk']"
 
-checkboxTnC                             = "//input[@id='register__checkbox__tnc']"
+checkboxTerms                           = "//input[@id='register__checkbox__tnc']"
+descriptionTerms                        = "//span[@data-testid='register__text-link__tnc']"
+urlTermsKetentuan                       = "//span[normalize-space()='Ketentuan Penggunaan,']"
+urlTermsEtik                            = "//span[normalize-space()='Kode Etik Penjual,']"
+urlTermsPrivasi                         = "//span[normalize-space()='Kebijakan Privasi,']"
+urlTermsPembatalan                      = "//span[normalize-space()='Ketentuan Pembatalan dan Pengembalian']"

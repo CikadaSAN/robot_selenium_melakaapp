@@ -13,5 +13,5 @@ Generate Random User
 
 Generate Random Phone Number
     ${randomNUM}    Generate Random String    5    [NUMBERS]
-    Set Global Variable    ${randomPhone}    000111${randomNUM}
+    Set Global Variable    ${randomPhone}    820000${randomNUM}
     Log To Console    Random Phone Number : ${randomPhone}
